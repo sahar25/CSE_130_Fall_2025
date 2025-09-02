@@ -42,11 +42,14 @@ Two tools:
 **Example inside the do-while:**
 ```c
 int choice;
-do {
-    printf("Enter a number (0 to quit): ");
-    scanf("%d", &choice);
+printf("Enter a number = ");
+scanf("%d", &choice);
+if (choice != 0){
     printf("You typed %d\n", choice);
-} while (choice != 0);
+}
+else {
+    printf("\nExiting!!");
+}
 ```
 ---
 ### 🔎 5. Prime Numbers
@@ -58,5 +61,6 @@ do {
 So technically this is just C code, but since it’s interactive and actually useful, let’s proudly call it your first little app.
 
 ---
+
 
 
