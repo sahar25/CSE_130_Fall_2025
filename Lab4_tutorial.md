@@ -14,7 +14,7 @@ Your calculator should still support:
 
 ---
 
-## 🧩 1) New concepts for Lab 4 (what & why)
+## 🧩 1) New concepts for Lab 4
 - **Functions** → Each menu action becomes its own function (cleaner, reusable, easier to test).
 - **Factorial** → `n!` multiplies all integers from 1 to `n`. By definition **`0! = 1`**.
 - **Power** → Raise a **float** base to an **integer** exponent.
@@ -24,7 +24,7 @@ Your calculator should still support:
 
 ---
 
-## 🧠 2) Function anatomy (review)
+## 🧠 2) Function anatomy
 **Prototype → Definition → Call**
 ```c
 // Prototype (top of file)
@@ -134,4 +134,5 @@ do {
     
 -   Power: `2^0`, `2^10`, `(-2)^3`, `0^5`, `0^-1` (should error).
     
+
 -   Fibonacci: `n=1`, `n=2`, `n=10` → confirm sequence.
