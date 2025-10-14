@@ -31,12 +31,11 @@ Add these functionalities to your previous Lab 6 phonebook program:
   ```c
   srand(time(NULL));
   int index = rand() % pb->size;
-```
+   ```
 - Print the selected contact’s name and number.
 
 ### 4️⃣ Delete everyone from the phonebook
 Loop through all entries and free() any dynamically allocated strings.
-
 Reset the size to zero and optionally shrink memory with realloc(pb->data, 0); works also.
 
 ## 2) Case-Insensitive String Comparison
@@ -133,3 +132,4 @@ do {
 
 ---
 ALL THE BEST :) !!
+
