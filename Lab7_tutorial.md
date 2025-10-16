@@ -104,7 +104,7 @@ do {
     case 1: add_contact(&pb); break;
     case 2: delete_contact(&pb); break;
     case 3: show_phonebook(&pb); break;
-    case 4: sort_contacts(&pb, 1); break;  // or ask user which field
+    case 4: sort_contacts(&pb, 1); break;  // default here is by first ( you need to ask the user for the option ( first/last name)
     case 5: find_contact(&pb); break;
     case 6: random_contact(&pb); break;
     case 7: clear_phonebook(&pb); break;
@@ -138,5 +138,6 @@ do {
 
 ---
 ALL THE BEST :) !!
+
 
 
