@@ -57,6 +57,8 @@ Here’s an example sort_contacts() function using Bubble Sort and strcasecmp():
 #include <strings.h>  // for strcasecmp
 #include <ctype.h>    // for tolower
 
+// After reviewing this method, it actually works! You can use it as is ( ignore the demo note of swapping j+1 with i) !!
+
 void sort_contacts(PhoneBook *pb, int by_first) {
     for (int i = 0; i < pb->size; i++) {
         for (int j = 0; j < pb->size - i - 1; j++) {
@@ -125,11 +127,16 @@ do {
 ## 7) Minimal Requirements Recap
 
 ✅ Works with your Lab 6 phonebook (same structs and memory logic)
+
 ✅ Adds menu options for sort, find, random, and delete-all
+
 ✅ Uses case-insensitive string comparison (strcasecmp)
+
 ✅ Implements and calls a sorting function (like Bubble Sort)
+
 ✅ Frees all memory and handles edge cases
 
 ---
 ALL THE BEST :) !!
+
 
